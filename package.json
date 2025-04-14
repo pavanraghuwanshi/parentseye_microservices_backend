@@ -1,0 +1,22 @@
+{
+  "name": "parentseyewithpavan",
+  "version": "1.0.0",
+  "description": "this is an backend of parentseye with the add microservices",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run dev",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "microservices"
+  ],
+  "author": "Pavan Raghuwanshi",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "http-proxy-middleware": "^3.0.3"
+  }
+}
